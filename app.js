@@ -1,7 +1,7 @@
 // Supabase enquiry form integration for Easy India Packers Movers.
 // Replace these two values with your Supabase project details before publishing.
-const SUPABASE_URL = "PASTE_YOUR_SUPABASE_PROJECT_URL";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://fmdvwfhqjpurinuobfmc.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZtZHZ3ZmhxanB1cmludW9iZm1jIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQyNTI4ODgsImV4cCI6MjA4OTgyODg4OH0.0LWWImPl2Omnbb3eCCnDFyFLPLxYKV28ua5YlxDmhkM";
 
 const enquiryForm = document.querySelector("#enquiryForm");
 const formStatus = document.querySelector("#formStatus");
