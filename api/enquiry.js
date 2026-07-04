@@ -2,8 +2,10 @@ const WHATSHUB_URL = "https://whatshub-production.up.railway.app/api/messages/se
 const ADMIN_WHATSAPP_NUMBER = "919728414117";
 const PUBLIC_PHONE = "7015066265";
 
-// Required Vercel environment variable: WHATSHUB_API_KEY.
-// Never expose this key in HTML, CSS, or browser-side JavaScript.
+// Required Vercel environment variables:
+// WHATSHUB_API_KEY for WhatsApp messages.
+// SUPABASE_URL plus SUPABASE_SERVICE_ROLE_KEY or SUPABASE_ANON_KEY for enquiry storage.
+// Never expose these keys in HTML, CSS, or browser-side JavaScript.
 
 function valueFrom(body, keys) {
   for (const key of keys) {
@@ -66,6 +68,36 @@ async function sendWhatsAppMessage(to, message, apiKey) {
   return response.json().catch(() => ({}));
 }
 
+function normalizeDate(value) {
+  if (!value) return null;
+  return /^\d{4}-\d{2}-\d{2}$/.test(value) ? value : null;
+}
+
+async function saveEnquiryToSupabase(payload) {
+  const supabaseUrl = String(process.env.SUPABASE_URL || "").replace(/\/$/, "");
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
+
+  if (!supabaseUrl || !supabaseKey) {
+    throw new Error("Supabase environment variables are missing.");
+  }
+
+  const response = await fetch(`${supabaseUrl}/rest/v1/enquiries`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "apikey": supabaseKey,
+      "Authorization": `Bearer ${supabaseKey}`,
+      "Prefer": "return=minimal"
+    },
+    body: JSON.stringify(payload)
+  });
+
+  if (!response.ok) {
+    const detail = await response.text().catch(() => "");
+    throw new Error(`Supabase insert failed with ${response.status}: ${detail}`);
+  }
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {
     res.setHeader("Allow", "POST");
@@ -104,8 +136,33 @@ module.exports = async function handler(req, res) {
     return res.status(400).json({ success: false, message: "Please enter a valid email address" });
   }
 
+  const enquiryRecord = {
+    name: name || "Not provided",
+    mobile: phone,
+    moving_from: movingFrom || "Not provided",
+    moving_to: movingTo || "Not provided",
+    moving_date: normalizeDate(movingDate),
+    service_type: serviceType || "Not provided",
+    message: [
+      message,
+      email ? `Email: ${email}` : "",
+      city ? `City/Page: ${city}` : "",
+      formName ? `Form: ${formName}` : ""
+    ].filter(Boolean).join("\n"),
+    source: pageSource || "shifteasyindia.com"
+  };
+
+  const saveResult = await Promise.allSettled([
+    saveEnquiryToSupabase(enquiryRecord)
+  ]);
+
+  const supabaseFailed = saveResult[0].status === "rejected";
+  if (supabaseFailed) {
+    console.error("Supabase enquiry save failed:", saveResult[0].reason);
+  }
+
   const apiKey = process.env.WHATSHUB_API_KEY;
-  if (!apiKey) {
+  if (!apiKey && supabaseFailed) {
     console.error("WHATSHUB_API_KEY is missing in Vercel environment variables.");
     return res.status(500).json({
       success: false,
@@ -144,15 +201,20 @@ module.exports = async function handler(req, res) {
     "Please contact the customer shortly."
   ].join("\n");
 
-  const results = await Promise.allSettled([
-    sendWhatsAppMessage(phone, customerMessage, apiKey),
-    sendWhatsAppMessage(ADMIN_WHATSAPP_NUMBER, adminMessage, apiKey)
-  ]);
+  const results = apiKey
+    ? await Promise.allSettled([
+      sendWhatsAppMessage(phone, customerMessage, apiKey),
+      sendWhatsAppMessage(ADMIN_WHATSAPP_NUMBER, adminMessage, apiKey)
+    ])
+    : [
+      { status: "rejected", reason: new Error("WHATSHUB_API_KEY is missing.") },
+      { status: "rejected", reason: new Error("WHATSHUB_API_KEY is missing.") }
+    ];
 
   const failed = results.filter((result) => result.status === "rejected");
   failed.forEach((result) => console.error("WhatsHub send failed:", result.reason));
 
-  if (failed.length === 2) {
+  if (supabaseFailed && failed.length === 2) {
     return res.status(502).json({
       success: false,
       message: "Unable to submit enquiry. Please call or WhatsApp 7015066265."
@@ -161,8 +223,8 @@ module.exports = async function handler(req, res) {
 
   return res.status(200).json({
     success: true,
-    partial: failed.length === 1,
-    message: failed.length === 1
+    partial: supabaseFailed || failed.length > 0,
+    message: supabaseFailed || failed.length > 0
       ? "Enquiry submitted. Our team will connect shortly."
       : "Enquiry submitted successfully"
   });
