@@ -50,6 +50,11 @@ img {
   background: linear-gradient(135deg, var(--blue-100), #ffffff);
 }
 
+picture {
+  display: block;
+  width: 100%;
+}
+
 video,
 svg {
   max-width: 100%;
