@@ -940,6 +940,7 @@ footer,
 
 .city-link-card {
   display: grid;
+  min-width: 0;
   gap: 8px;
   padding: 22px;
   border: 1px solid rgba(8, 33, 74, 0.09);
@@ -958,10 +959,15 @@ footer,
 .city-link-card strong {
   color: var(--red-600);
   font-size: 1.05rem;
+  line-height: 1.35;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .city-link-card span {
   color: var(--muted);
+  line-height: 1.55;
+  overflow-wrap: break-word;
 }
 
 .section-soft {
@@ -1107,6 +1113,7 @@ footer,
 .city-price-box,
 .city-faq article,
 .city-image-grid figure {
+  min-width: 0;
   overflow: hidden;
   border: 1px solid rgba(8, 33, 74, 0.08);
   border-radius: var(--radius);
@@ -1124,12 +1131,45 @@ footer,
   padding: 24px;
 }
 
+.city-price-box h2,
+.city-price-box h3 {
+  max-width: 100%;
+  margin-bottom: 16px;
+  color: var(--navy-950);
+  font-size: clamp(1.35rem, 2.1vw, 2rem);
+  line-height: 1.18;
+  letter-spacing: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
 .city-service-card p,
 .city-process-card p,
 .city-price-box p,
 .city-faq p {
   color: var(--muted);
   margin-bottom: 0;
+  overflow-wrap: break-word;
+}
+
+.city-price-box table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 14px 0 12px;
+}
+
+.city-price-box th,
+.city-price-box td {
+  padding: 8px 6px;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+.city-price-box th {
+  color: var(--navy-950);
+  font-weight: 800;
 }
 
 .city-process-card {
@@ -1187,6 +1227,7 @@ footer,
   margin: 16px 0 0;
   padding-left: 20px;
   color: var(--muted);
+  overflow-wrap: break-word;
 }
 
 .city-image-grid {
@@ -2241,6 +2282,10 @@ textarea:focus {
 
   .city-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .city-grid:has(.city-price-box) {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   }
 
   .city-process-grid,
