@@ -1,6 +1,6 @@
 const WHATSHUB_URL = "https://whatshub-production.up.railway.app/api/messages/send";
 const ADMIN_WHATSAPP_NUMBER = "919728414117";
-const PUBLIC_PHONE = "7015066265";
+const PUBLIC_PHONE = "8860688698";
 
 // Required Vercel environment variables:
 // WHATSHUB_API_KEY for WhatsApp messages.
@@ -166,7 +166,7 @@ module.exports = async function handler(req, res) {
     console.error("WHATSHUB_API_KEY is missing in Vercel environment variables.");
     return res.status(500).json({
       success: false,
-      message: "Unable to submit enquiry. Please call or WhatsApp 7015066265."
+      message: "Unable to submit enquiry. Please call or WhatsApp 8860688698."
     });
   }
 
@@ -217,7 +217,7 @@ module.exports = async function handler(req, res) {
   if (supabaseFailed && failed.length === 2) {
     return res.status(502).json({
       success: false,
-      message: "Unable to submit enquiry. Please call or WhatsApp 7015066265."
+      message: "Unable to submit enquiry. Please call or WhatsApp 8860688698."
     });
   }
 
