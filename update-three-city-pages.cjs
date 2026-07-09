@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const brand = "Easy India Packers Movers";
-const phone = "7015066265";
+const phone = "8860688698";
 const email = "info@shifteasyindia.com";
 const domain = "shifteasyindia.com";
 
@@ -10,7 +10,7 @@ const pages = [
     city: "Delhi",
     slug: "packers-and-movers-in-delhi",
     title: "Packers and Movers in Delhi | Easy India Packers Movers",
-    description: "Easy India Packers Movers provides home shifting, office relocation, packing, loading, domestic moving and transport support in Delhi. Call 7015066265 for moving quote.",
+    description: "Easy India Packers Movers provides home shifting, office relocation, packing, loading, domestic moving and transport support in Delhi. Call 8860688698 for moving quote.",
     subtitle: "Safe home shifting, office relocation, packing, loading and transportation support across Delhi with planned handling and clear customer communication.",
     introTitle: "Reliable Packers and Movers Service in Delhi",
     intro: "Easy India Packers Movers supports Delhi customers with planned relocation service for homes, offices, vehicles and domestic goods movement. Our team understands building access, goods volume, packing needs and delivery timelines before confirming the move, so customers receive practical guidance and a transparent estimate.",
@@ -31,12 +31,12 @@ const pages = [
       ["Packing Service", "Cartons, bubble wrap, foam sheets and tapes are selected according to fragile, daily-use and heavy goods."],
       ["Loading and Transport", "Suitable vehicles and manpower are planned for safe loading, route movement and delivery coordination."]
     ],
-    process: ["Call or WhatsApp 7015066265 with your moving date and locations.", "Share goods details or request a survey for better estimate planning.", "Approve the quotation, packing scope and shifting schedule.", "Our team packs, loads, transports and delivers goods with doorstep coordination."],
+    process: ["Call or WhatsApp 8860688698 with your moving date and locations.", "Share goods details or request a survey for better estimate planning.", "Approve the quotation, packing scope and shifting schedule.", "Our team packs, loads, transports and delivers goods with doorstep coordination."],
     areas: ["Dwarka", "Rohini", "Pitampura", "Janakpuri", "Karol Bagh", "Lajpat Nagar", "Saket", "Malviya Nagar", "Vasant Kunj", "Rajouri Garden", "Punjabi Bagh", "Greater Kailash", "Connaught Place", "Preet Vihar", "Mayur Vihar", "South Delhi", "West Delhi", "North Delhi", "East Delhi"],
     prices: ["Goods quantity and item size", "Packing material quality", "Pickup and delivery floor access", "Distance and vehicle type", "Fragile or special handling items", "Unpacking, storage or extra manpower requirement"],
     faq: [
       ["Do you provide packers and movers in Delhi?", "Yes, Easy India Packers Movers provides home shifting, office relocation, packing, loading and domestic moving support in Delhi."],
-      ["Can I get a moving quote on WhatsApp?", "Yes, you can WhatsApp 7015066265 with pickup, delivery, goods list and moving date for estimate support."],
+      ["Can I get a moving quote on WhatsApp?", "Yes, you can WhatsApp 8860688698 with pickup, delivery, goods list and moving date for estimate support."],
       ["Do you handle office relocation in Delhi?", "Yes, office relocation can be planned for furniture, files, workstations, computers and other office goods."],
       ["Which Delhi areas do you serve?", "We support many Delhi areas including Dwarka, Rohini, Janakpuri, Lajpat Nagar, Saket, Vasant Kunj and nearby locations."]
     ]
@@ -45,7 +45,7 @@ const pages = [
     city: "Gurgaon",
     slug: "packers-and-movers-in-gurgaon",
     title: "Packers and Movers in Gurgaon | Home & Office Shifting",
-    description: "Easy India Packers Movers offers home shifting, office relocation, packing, loading and domestic moving support in Gurgaon. Call 7015066265 for quote.",
+    description: "Easy India Packers Movers offers home shifting, office relocation, packing, loading and domestic moving support in Gurgaon. Call 8860688698 for quote.",
     subtitle: "Professional moving support for apartments, villas, offices, commercial spaces and city-to-city relocation from Gurgaon.",
     introTitle: "Professional Moving Service in Gurgaon",
     intro: "Gurgaon relocations often involve high-rise societies, villas, corporate offices and fixed loading timings. Easy India Packers Movers plans every move after understanding goods, society rules, lift access and destination requirements, giving customers clear support from first call to delivery.",
@@ -73,14 +73,14 @@ const pages = [
       ["Do you provide packers and movers in Gurgaon?", "Yes, Easy India Packers Movers supports home shifting, office relocation, packing and domestic moving in Gurgaon."],
       ["Can you handle office relocation in Gurgaon?", "Yes, office relocation in Gurgaon can be planned for workstations, computers, files, furniture and other business goods."],
       ["Do you move from Gurgaon to other cities?", "Yes, domestic moving from Gurgaon can be arranged based on goods volume, distance and delivery requirement."],
-      ["How do I book a Gurgaon moving survey?", "Call or WhatsApp 7015066265 and share your pickup address, destination, goods type and moving date."]
+      ["How do I book a Gurgaon moving survey?", "Call or WhatsApp 8860688698 and share your pickup address, destination, goods type and moving date."]
     ]
   },
   {
     city: "Hyderabad",
     slug: "packers-and-movers-in-hyderabad",
     title: "Packers and Movers in Hyderabad | Easy India Packers Movers",
-    description: "Easy India Packers Movers provides home shifting, office relocation, packing, loading and transport support in Hyderabad. Call 7015066265 for moving assistance.",
+    description: "Easy India Packers Movers provides home shifting, office relocation, packing, loading and transport support in Hyderabad. Call 8860688698 for moving assistance.",
     subtitle: "Safe and planned moving support for homes, apartments, offices, vehicles and goods transportation in Hyderabad.",
     introTitle: "Safe and Planned Relocation Support in Hyderabad",
     intro: "Easy India Packers Movers helps Hyderabad customers shift homes, apartments, offices and goods with a clear process. We focus on safe packing, careful loading, suitable transport planning and direct communication so customers can understand each step before moving day.",
@@ -101,20 +101,20 @@ const pages = [
       ["Office Relocation", "Office goods, systems, furniture and files are packed and moved with structured coordination."],
       ["Transport Support", "Vehicle selection is planned according to goods volume, distance and delivery timeline."]
     ],
-    process: ["Call or WhatsApp your Hyderabad moving requirement to 7015066265.", "Goods, packing needs, access details and destination are reviewed.", "A transparent estimate and shifting schedule are shared for approval.", "The moving team packs, loads and transports goods with safe delivery coordination."],
+    process: ["Call or WhatsApp your Hyderabad moving requirement to 8860688698.", "Goods, packing needs, access details and destination are reviewed.", "A transparent estimate and shifting schedule are shared for approval.", "The moving team packs, loads and transports goods with safe delivery coordination."],
     areas: ["Banjara Hills", "Jubilee Hills", "Gachibowli", "Hitech City", "Madhapur", "Kondapur", "Kukatpally", "Miyapur", "Begumpet", "Ameerpet", "Secunderabad", "Manikonda", "Nallagandla", "Uppal", "LB Nagar", "Mehdipatnam", "Attapur", "Tolichowki", "Shamshabad", "Kompally"],
     prices: ["Goods volume and packing level", "Local or domestic moving distance", "Floor access and lift availability", "Vehicle and manpower requirement", "Fragile items or appliances", "Unpacking, placement or storage support"],
     faq: [
       ["Do you provide packers and movers in Hyderabad?", "Yes, Easy India Packers Movers provides home shifting, office relocation, packing, loading and transport support in Hyderabad."],
       ["Can you help with apartment shifting in Hyderabad?", "Yes, apartment shifting can be planned after understanding lift access, floor details, goods volume and packing requirement."],
       ["Is domestic moving available from Hyderabad?", "Yes, domestic moving from Hyderabad to other cities can be planned based on distance and goods details."],
-      ["How can I contact your Hyderabad moving team?", "Call or WhatsApp 7015066265 for moving assistance and estimate support."]
+      ["How can I contact your Hyderabad moving team?", "Call or WhatsApp 8860688698 for moving assistance and estimate support."]
     ]
   }
 ];
 
 function topBar() {
-  return `<div class="top-bar"><div class="container top-bar__inner"><p>Trusted Packers &amp; Movers Across India</p><div class="top-bar__links"><a href="tel:+917015066265">Phone: ${phone}</a><a href="https://wa.me/917015066265">WhatsApp: ${phone}</a><a href="mailto:${email}">Email: ${email}</a><a href="https://${domain}/">Website: ${domain}</a></div></div></div>`;
+  return `<div class="top-bar"><div class="container top-bar__inner"><p>Trusted Packers &amp; Movers Across India</p><div class="top-bar__links"><a href="tel:+918860688698">Phone: ${phone}</a><a href="https://wa.me/918860688698">WhatsApp: ${phone}</a><a href="mailto:${email}">Email: ${email}</a><a href="https://${domain}/">Website: ${domain}</a></div></div></div>`;
 }
 
 function header() {
@@ -127,7 +127,7 @@ function schemas(page) {
     "@type": "MovingCompany",
     name: brand,
     url: `https://${domain}/${page.slug}.html`,
-    telephone: "+917015066265",
+    telephone: "+918860688698",
     email,
     areaServed: [page.city, "India"],
     address: { "@type": "PostalAddress", addressCountry: "IN" }
@@ -140,7 +140,7 @@ function schemas(page) {
     email,
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+917015066265",
+      telephone: "+918860688698",
       contactType: "customer support",
       areaServed: "IN",
       availableLanguage: ["English", "Hindi"]
@@ -161,7 +161,7 @@ function schemas(page) {
 }
 
 function footer() {
-  return `<footer class="footer"><div class="container footer__grid"><div><h3>Company</h3><a href="index.html#intro">About Us</a><a href="shifting-process.html">Shifting Process</a><a href="contact.html">Contact Us</a></div><div><h3>Services</h3><a href="domestic-moving.html">Domestic Moving</a><a href="service.html">Office Relocation</a><a href="service.html">Packing Service</a><a href="service.html">Car Transportation</a></div><div><h3>Locations</h3><a href="packers-and-movers-in-delhi.html">Packers and Movers in Delhi</a><a href="packers-and-movers-in-gurgaon.html">Packers and Movers in Gurgaon</a><a href="packers-and-movers-in-hyderabad.html">Packers and Movers in Hyderabad</a></div><div><h3>Contact</h3><p>${brand}</p><p>Website: ${domain}</p><p>Phone: <a href="tel:+917015066265">${phone}</a></p><p>WhatsApp: <a href="https://wa.me/917015066265">${phone}</a></p><p>Email: <a href="mailto:${email}">${email}</a></p></div></div><div class="footer__bottom"><p>&copy; 2026 ${brand}. All Rights Reserved.</p></div></footer>`;
+  return `<footer class="footer"><div class="container footer__grid"><div><h3>Company</h3><a href="index.html#intro">About Us</a><a href="shifting-process.html">Shifting Process</a><a href="contact.html">Contact Us</a></div><div><h3>Services</h3><a href="domestic-moving.html">Domestic Moving</a><a href="service.html">Office Relocation</a><a href="service.html">Packing Service</a><a href="service.html">Car Transportation</a></div><div><h3>Locations</h3><a href="packers-and-movers-in-delhi.html">Packers and Movers in Delhi</a><a href="packers-and-movers-in-gurgaon.html">Packers and Movers in Gurgaon</a><a href="packers-and-movers-in-hyderabad.html">Packers and Movers in Hyderabad</a></div><div><h3>Contact</h3><p>${brand}</p><p>Website: ${domain}</p><p>Phone: <a href="tel:+918860688698">${phone}</a></p><p>WhatsApp: <a href="https://wa.me/918860688698">${phone}</a></p><p>Email: <a href="mailto:${email}">${email}</a></p></div></div><div class="footer__bottom"><p>&copy; 2026 ${brand}. All Rights Reserved.</p></div></footer>`;
 }
 
 function pageHtml(page) {
@@ -191,8 +191,8 @@ function pageHtml(page) {
           <h1>Packers and Movers in ${page.city}</h1>
           <p>${page.subtitle}</p>
           <div class="hero__actions">
-            <a class="btn" href="tel:+917015066265">Call ${phone}</a>
-            <a class="btn btn--outline" href="https://wa.me/917015066265">WhatsApp Now</a>
+            <a class="btn" href="tel:+918860688698">Call ${phone}</a>
+            <a class="btn btn--outline" href="https://wa.me/918860688698">WhatsApp Now</a>
           </div>
         </div>
         <div class="city-hero-image"><img src="${page.images[0][0]}" width="900" height="620" alt="${page.images[0][1]}" loading="lazy" decoding="async"></div>
@@ -286,14 +286,14 @@ function pageHtml(page) {
           <p>Talk to ${brand} for safe packing, moving estimate and planned relocation support.</p>
         </div>
         <div class="cta__actions">
-          <a class="btn" href="tel:+917015066265">Call ${phone}</a>
-          <a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a>
+          <a class="btn" href="tel:+918860688698">Call ${phone}</a>
+          <a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a>
         </div>
       </div>
     </section>
   </main>
   ${footer()}
-  <div class="floating-actions" aria-label="Quick contact"><a class="float-btn float-btn--call" href="tel:+917015066265">Call</a><a class="float-btn float-btn--whatsapp" href="https://wa.me/917015066265">WhatsApp</a></div>
+  <div class="floating-actions" aria-label="Quick contact"><a class="float-btn float-btn--call" href="tel:+918860688698">Call</a><a class="float-btn float-btn--whatsapp" href="https://wa.me/918860688698">WhatsApp</a></div>
 </body>
 </html>
 `;
