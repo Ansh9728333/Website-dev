@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const brand = "Easy India Packers Movers";
-const phone = "7015066265";
+const phone = "8860688698";
 const email = "info@shifteasyindia.com";
 const domain = "shifteasyindia.com";
 
@@ -10,7 +10,7 @@ const cities = [
     city: "Delhi",
     slug: "packers-and-movers-in-delhi",
     title: "Packers and Movers in Delhi | Easy India Packers Movers",
-    description: "Easy India Packers Movers offers packers and movers in Delhi for home shifting, office relocation, packing, loading, vehicle transport and domestic moving. Call 7015066265.",
+    description: "Easy India Packers Movers offers packers and movers in Delhi for home shifting, office relocation, packing, loading, vehicle transport and domestic moving. Call 8860688698.",
     intro: "Moving in Delhi needs careful planning because every lane, apartment tower and office complex has its own access rules. Easy India Packers Movers helps families and businesses shift with safe packing, planned loading and dependable transport support across the city.",
     services: ["Home shifting in Delhi", "Office relocation in Delhi", "Packing and loading support", "Vehicle transportation", "Short-term storage guidance", "Domestic moving from Delhi"],
     process: ["Share your Delhi pickup and delivery details on call or WhatsApp.", "Our team checks goods, packing needs, floor access and vehicle entry.", "Packing materials and vehicle size are planned before move day.", "Goods are loaded carefully, moved safely and delivered as per your guidance."],
@@ -19,7 +19,7 @@ const cities = [
     faq: [
       ["Do you provide home shifting in Delhi?", "Yes, Easy India Packers Movers supports local and domestic home shifting from Delhi with packing, loading and transport planning."],
       ["Can I book an office relocation in Delhi?", "Yes, our team can plan office goods, furniture and equipment shifting after understanding access, timing and packing needs."],
-      ["How can I get a Delhi moving estimate?", "Call or WhatsApp 7015066265 and share pickup, delivery, goods list and preferred moving date for an estimate."],
+      ["How can I get a Delhi moving estimate?", "Call or WhatsApp 8860688698 and share pickup, delivery, goods list and preferred moving date for an estimate."],
       ["Do you move goods from Delhi to other cities?", "Yes, domestic moving support is available from Delhi to many Indian cities with suitable vehicles and packing options."]
     ]
   },
@@ -27,7 +27,7 @@ const cities = [
     city: "Gurgaon",
     slug: "packers-and-movers-in-gurgaon",
     title: "Packers and Movers in Gurgaon | Office Relocation & Home Shifting",
-    description: "Book packers and movers in Gurgaon for home shifting, office relocation, packing, loading and domestic transport with Easy India Packers Movers. Call 7015066265.",
+    description: "Book packers and movers in Gurgaon for home shifting, office relocation, packing, loading and domestic transport with Easy India Packers Movers. Call 8860688698.",
     intro: "Gurgaon moves often involve high-rise societies, corporate offices and strict entry timings. Easy India Packers Movers coordinates packing, pickup and delivery so your home or office relocation remains organized and easy to manage.",
     services: ["Apartment shifting in Gurgaon", "Office relocation in Gurgaon", "IT and furniture moving support", "Packing and unpacking assistance", "Vehicle transportation", "Domestic moving from Gurgaon"],
     process: ["We collect your Gurgaon society, office or warehouse moving details.", "A survey helps us note goods, service lifts, packing needs and move timing.", "The quotation explains service scope, estimated cost and planned schedule.", "Packed goods are handled carefully and delivered with doorstep coordination."],
@@ -37,14 +37,14 @@ const cities = [
       ["Do you handle office relocation in Gurgaon?", "Yes, Easy India Packers Movers plans office relocation in Gurgaon with packing, loading and transport support."],
       ["Can you shift goods from Gurgaon to another city?", "Yes, we support domestic moving from Gurgaon to other Indian cities based on goods volume and destination."],
       ["Do you manage society move timing?", "We note lift availability, entry rules and loading points during the survey so the move can be planned smoothly."],
-      ["How do I contact your Gurgaon moving team?", "Call or WhatsApp 7015066265 to discuss your Gurgaon moving requirement."]
+      ["How do I contact your Gurgaon moving team?", "Call or WhatsApp 8860688698 to discuss your Gurgaon moving requirement."]
     ]
   },
   {
     city: "Hyderabad",
     slug: "packers-and-movers-in-hyderabad",
     title: "Packers and Movers in Hyderabad | Home Shifting & Domestic Moving",
-    description: "Easy India Packers Movers provides packers and movers in Hyderabad for home shifting, office moving, packing, loading and domestic relocation support. Call 7015066265.",
+    description: "Easy India Packers Movers provides packers and movers in Hyderabad for home shifting, office moving, packing, loading and domestic relocation support. Call 8860688698.",
     intro: "Easy India Packers Movers supports Hyderabad customers with practical shifting plans for apartments, villas, offices and city-to-city moves. Our process focuses on safe packing, careful handling and clear communication before the move starts.",
     services: ["Home shifting in Hyderabad", "Office goods relocation", "Packing material support", "Loading and unloading", "Domestic moving service", "Vehicle shifting guidance"],
     process: ["Share your Hyderabad pickup location, destination and goods details.", "We understand packing needs, access conditions and expected move date.", "A clear estimate is shared with service details and required manpower.", "Goods are packed, moved and delivered with careful handling at destination."],
@@ -54,14 +54,14 @@ const cities = [
       ["Do you provide packers and movers in Hyderabad?", "Yes, Easy India Packers Movers can assist with Hyderabad home shifting, office moving and domestic relocation planning."],
       ["Can fragile goods be packed separately?", "Yes, fragile and special handling items can be packed with suitable materials after the survey."],
       ["Is domestic moving available from Hyderabad?", "Yes, domestic moving support is available from Hyderabad to other cities based on your requirement."],
-      ["How do I request a quote in Hyderabad?", "Call or WhatsApp 7015066265 with your moving details and preferred date."]
+      ["How do I request a quote in Hyderabad?", "Call or WhatsApp 8860688698 with your moving details and preferred date."]
     ]
   },
   {
     city: "Noida",
     slug: "packers-and-movers-in-noida",
     title: "Packers and Movers in Noida | Home and Office Relocation",
-    description: "Need packers and movers in Noida? Easy India Packers Movers offers home shifting, office relocation, packing, loading and domestic moving support. Call 7015066265.",
+    description: "Need packers and movers in Noida? Easy India Packers Movers offers home shifting, office relocation, packing, loading and domestic moving support. Call 8860688698.",
     intro: "Noida relocations can include apartments, office parks, warehouses and intercity moves. Easy India Packers Movers keeps the process simple with clear estimates, careful packing and planned transportation.",
     services: ["Home shifting in Noida", "Office relocation in Noida", "Packing and unpacking support", "Loading and unloading", "Domestic transport", "Storage guidance if required"],
     process: ["Tell us your Noida pickup, destination and moving date.", "Our team checks goods volume, packing needs and access rules.", "Your move plan and quotation are shared before confirmation.", "On move day, goods are packed, loaded and delivered carefully."],
@@ -71,14 +71,14 @@ const cities = [
       ["Do you offer home shifting in Noida?", "Yes, Easy India Packers Movers supports home shifting in Noida with packing, loading and transport coordination."],
       ["Can offices be shifted after working hours?", "Move timing can be discussed during booking and planned according to access permission and team availability."],
       ["Do you provide Noida to other city moving?", "Yes, domestic moving from Noida can be planned based on goods and destination."],
-      ["What is the fastest way to book?", "Call or WhatsApp 7015066265 for quick discussion and survey scheduling."]
+      ["What is the fastest way to book?", "Call or WhatsApp 8860688698 for quick discussion and survey scheduling."]
     ]
   },
   {
     city: "Faridabad",
     slug: "packers-and-movers-in-faridabad",
     title: "Packers and Movers in Faridabad | Local and Domestic Moving",
-    description: "Easy India Packers Movers offers packers and movers in Faridabad for home shifting, office relocation, packing, loading and domestic moving. Call 7015066265.",
+    description: "Easy India Packers Movers offers packers and movers in Faridabad for home shifting, office relocation, packing, loading and domestic moving. Call 8860688698.",
     intro: "Easy India Packers Movers helps customers in Faridabad shift homes, offices and goods with a planned process. From packing material selection to doorstep delivery, our team keeps safety and communication at the center of every move.",
     services: ["Local shifting in Faridabad", "Home relocation", "Office goods moving", "Packing and loading", "Vehicle transportation support", "Domestic relocation"],
     process: ["Call or WhatsApp your Faridabad moving details.", "Goods, packing needs and loading access are reviewed carefully.", "A transparent estimate is shared before confirmation.", "Our team packs, loads, transports and unloads goods at destination."],
@@ -88,14 +88,14 @@ const cities = [
       ["Do you provide packers and movers in Faridabad?", "Yes, Easy India Packers Movers supports local and domestic moving from Faridabad."],
       ["Can you help with packing material?", "Yes, packing materials can be planned according to goods type and handling requirement."],
       ["Do you shift office goods in Faridabad?", "Yes, office furniture, files and equipment moving can be planned after understanding the site."],
-      ["How can I contact you?", "Call or WhatsApp 7015066265 for moving support."]
+      ["How can I contact you?", "Call or WhatsApp 8860688698 for moving support."]
     ]
   },
   {
     city: "Ghaziabad",
     slug: "packers-and-movers-in-ghaziabad",
     title: "Packers and Movers in Ghaziabad | Home Shifting & Transport",
-    description: "Book packers and movers in Ghaziabad with Easy India Packers Movers for home shifting, office relocation, packing, loading and transportation. Call 7015066265.",
+    description: "Book packers and movers in Ghaziabad with Easy India Packers Movers for home shifting, office relocation, packing, loading and transportation. Call 8860688698.",
     intro: "For Ghaziabad moves, Easy India Packers Movers offers careful packing, planned loading and reliable transport coordination. Whether you are moving within the city or to another location, our team helps make the process easier.",
     services: ["Home shifting in Ghaziabad", "Office relocation", "Packing and loading", "Domestic goods transport", "Vehicle moving support", "Doorstep relocation assistance"],
     process: ["Share your Ghaziabad moving requirement with our support team.", "Survey details help us understand goods, route and packing level.", "A move plan is finalized with date, cost and service scope.", "Goods are packed, transported and delivered with careful handling."],
@@ -105,7 +105,7 @@ const cities = [
       ["Do you offer packers and movers in Ghaziabad?", "Yes, Easy India Packers Movers provides Ghaziabad moving support for homes, offices and domestic relocation."],
       ["Can I get doorstep pickup and delivery?", "Yes, pickup and delivery support is planned according to the site access and customer requirement."],
       ["What details are needed for a quote?", "Share pickup, delivery, goods list, floor details and moving date for a better estimate."],
-      ["Can I book on WhatsApp?", "Yes, you can WhatsApp 7015066265 for booking discussion."]
+      ["Can I book on WhatsApp?", "Yes, you can WhatsApp 8860688698 for booking discussion."]
     ]
   }
 ];
@@ -116,7 +116,7 @@ function schemaBlocks(city) {
     "@type": "MovingCompany",
     name: brand,
     url: `https://${domain}/${city.slug}.html`,
-    telephone: "+917015066265",
+    telephone: "+918860688698",
     email,
     areaServed: [city.city, "India"],
     address: { "@type": "PostalAddress", addressCountry: "IN" }
@@ -129,7 +129,7 @@ function schemaBlocks(city) {
     email,
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+917015066265",
+      telephone: "+918860688698",
       contactType: "customer support",
       areaServed: "IN",
       availableLanguage: ["English", "Hindi"]
@@ -185,8 +185,8 @@ function topBar() {
       <div class="container top-bar__inner">
         <p>Trusted Packers &amp; Movers Across India</p>
         <div class="top-bar__links">
-          <a href="tel:7015066265">Phone: ${phone}</a>
-          <a href="https://wa.me/917015066265">WhatsApp: ${phone}</a>
+          <a href="tel:8860688698">Phone: ${phone}</a>
+          <a href="https://wa.me/918860688698">WhatsApp: ${phone}</a>
           <a href="mailto:${email}">Email: ${email}</a>
           <a href="https://${domain}/">Website: ${domain}</a>
         </div>
@@ -223,8 +223,8 @@ function footer() {
           <h3>Contact</h3>
           <p>Easy India Packers Movers</p>
           <p>Website: ${domain}</p>
-          <p>Phone: <a href="tel:7015066265">${phone}</a></p>
-          <p>WhatsApp: <a href="https://wa.me/917015066265">${phone}</a></p>
+          <p>Phone: <a href="tel:8860688698">${phone}</a></p>
+          <p>WhatsApp: <a href="https://wa.me/918860688698">${phone}</a></p>
           <p>Email: <a href="mailto:${email}">${email}</a></p>
         </div>
       </div>
@@ -260,8 +260,8 @@ ${nav()}
         <h1>${city.title.replace(" | Easy India Packers Movers", "").replace(" | Office Relocation & Home Shifting", "").replace(" | Home Shifting & Domestic Moving", "").replace(" | Home and Office Relocation", "").replace(" | Local and Domestic Moving", "").replace(" | Home Shifting & Transport", "")}</h1>
         <p>${city.intro}</p>
         <div class="hero-actions">
-          <a class="btn" href="tel:7015066265">Call ${phone}</a>
-          <a class="btn btn--outline" href="https://wa.me/917015066265">WhatsApp Now</a>
+          <a class="btn" href="tel:8860688698">Call ${phone}</a>
+          <a class="btn btn--outline" href="https://wa.me/918860688698">WhatsApp Now</a>
         </div>
       </div>
       <div class="page-hero-image city-hero-image" role="img" aria-label="${brand} moving service in ${city.city}" style="background-image: url('${images[0]}');"></div>
@@ -362,8 +362,8 @@ ${nav()}
         <p>Call Easy India Packers Movers for survey booking, moving estimate and safe relocation support.</p>
       </div>
       <div class="cta-actions">
-        <a class="btn" href="tel:7015066265">Call ${phone}</a>
-        <a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a>
+        <a class="btn" href="tel:8860688698">Call ${phone}</a>
+        <a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a>
       </div>
     </div>
   </section>
@@ -371,8 +371,8 @@ ${nav()}
 ${footer()}
 
   <div class="floating-actions" aria-label="Quick contact">
-    <a class="float-btn float-btn--call" href="tel:7015066265">Call</a>
-    <a class="float-btn float-btn--whatsapp" href="https://wa.me/917015066265">WhatsApp</a>
+    <a class="float-btn float-btn--call" href="tel:8860688698">Call</a>
+    <a class="float-btn float-btn--whatsapp" href="https://wa.me/918860688698">WhatsApp</a>
   </div>
 </body>
 </html>
