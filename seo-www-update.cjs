@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const BASE = "https://www.shifteasyindia.com";
 const BRAND = "Easy India Packers Movers";
-const PHONE = "7015066265";
+const PHONE = "8860688698";
 const EMAIL = "info@shifteasyindia.com";
 const ADDRESS = "Plot No 81 First Floor, Housing Board Colony, Sector 7, Gurgaon, Haryana 122001";
 const LOGO = `${BASE}/assets/logo-easy-india-packers-movers.png`;
@@ -21,8 +21,8 @@ const meta = {
     breadcrumb: ["Home", "About Us"]
   },
   "contact.html": {
-    title: "Contact Easy India Packers Movers | Call 7015066265",
-    description: "Contact Easy India Packers Movers for moving quote, survey booking, home shifting, office relocation and support. Call 7015066265.",
+    title: "Contact Easy India Packers Movers | Call 8860688698",
+    description: "Contact Easy India Packers Movers for moving quote, survey booking, home shifting, office relocation and support. Call 8860688698.",
     canonical: `${BASE}/contact.html`,
     breadcrumb: ["Home", "Contact"]
   },
@@ -107,7 +107,7 @@ function localBusinessSchema() {
     name: BRAND,
     url: `${BASE}/`,
     logo: LOGO,
-    telephone: "+917015066265",
+    telephone: "+918860688698",
     email: EMAIL,
     address: {
       "@type": "PostalAddress",
@@ -133,7 +133,7 @@ function organizationSchema() {
     address: localBusinessSchema().address,
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+917015066265",
+      telephone: "+918860688698",
       contactType: "customer support",
       areaServed: "IN",
       availableLanguage: ["English", "Hindi"]
