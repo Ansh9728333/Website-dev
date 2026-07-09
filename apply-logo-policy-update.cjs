@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const brand = "Easy India Packers Movers";
 const domain = "shifteasyindia.com";
-const phone = "7015066265";
+const phone = "8860688698";
 const email = "info@shifteasyindia.com";
 const address = "Plot No 81 First Floor, Housing Board Colony, Sector 7, Gurgaon, Haryana 122001";
 const logo = "assets/logo-easy-india-packers-movers.png";
@@ -27,7 +27,7 @@ function localBusinessSchema(pageUrl = `https://${domain}/`) {
     "name": brand,
     "url": pageUrl,
     "logo": `https://${domain}/${logo}`,
-    "telephone": "+917015066265",
+    "telephone": "+918860688698",
     "email": email,
     "address": {
       "@type": "PostalAddress",
@@ -52,7 +52,7 @@ function organizationSchema() {
     "email": email,
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+917015066265",
+      "telephone": "+918860688698",
       "contactType": "customer support",
       "areaServed": "IN",
       "availableLanguage": ["English", "Hindi"]
@@ -69,8 +69,8 @@ function topBar() {
     <div class="container top-bar__inner">
       <p>Trusted Packers &amp; Movers Across India</p>
       <div class="top-bar__links">
-        <a href="tel:+917015066265">Phone: ${phone}</a>
-        <a href="https://wa.me/917015066265">WhatsApp: ${phone}</a>
+        <a href="tel:+918860688698">Phone: ${phone}</a>
+        <a href="https://wa.me/918860688698">WhatsApp: ${phone}</a>
         <a href="mailto:${email}">Email: ${email}</a>
         <a href="https://${domain}/">Website: ${domain}</a>
       </div>
@@ -135,8 +135,8 @@ function footer() {
       <div>
         <h3>Contact</h3>
         <p>${brand}</p>
-        <p>Phone: <a href="tel:+917015066265">${phone}</a></p>
-        <p>WhatsApp: <a href="https://wa.me/917015066265">${phone}</a></p>
+        <p>Phone: <a href="tel:+918860688698">${phone}</a></p>
+        <p>WhatsApp: <a href="https://wa.me/918860688698">${phone}</a></p>
         <p>Email: <a href="mailto:${email}">${email}</a></p>
         <p>Website: ${domain}</p>
       </div>
@@ -166,7 +166,7 @@ ${header(ctaHref)}
 ${main}
   </main>
 ${footer()}
-  <div class="floating-actions" aria-label="Quick contact"><a class="float-btn float-btn--call" href="tel:+917015066265">Call</a><a class="float-btn float-btn--whatsapp" href="https://wa.me/917015066265">WhatsApp</a></div>
+  <div class="floating-actions" aria-label="Quick contact"><a class="float-btn float-btn--call" href="tel:+918860688698">Call</a><a class="float-btn float-btn--whatsapp" href="https://wa.me/918860688698">WhatsApp</a></div>
 </body>
 </html>
 `;
@@ -178,7 +178,7 @@ const aboutMain = `    <section class="page-hero">
           <span class="eyebrow">About Company</span>
           <h1>About Easy India Packers Movers</h1>
           <p>Customer-focused packing and moving support for homes, offices, vehicles and domestic goods transportation.</p>
-          <div class="page-hero-actions"><a class="btn" href="tel:+917015066265">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a></div>
+          <div class="page-hero-actions"><a class="btn" href="tel:+918860688698">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a></div>
         </div>
         <div class="about-logo-panel"><img src="${logo}" width="520" height="520" alt="${brand} logo" loading="lazy" decoding="async"></div>
       </div>
@@ -187,8 +187,8 @@ const aboutMain = `    <section class="page-hero">
     <section class="section"><div class="container intro__grid"><div><span class="eyebrow">Our Mission</span><h2>Simple, Safe and Stress-Free Relocation</h2></div><div class="intro__copy"><p>Our mission is to make relocation simple, safe and stress-free by offering clear communication, transparent estimates, quality packing and customer-friendly support.</p><p>Every move is planned around customer requirements, item type, pickup condition, delivery location and practical timing.</p></div></div></section>
     <section class="section section-soft"><div class="container"><div class="section-heading"><span class="eyebrow">What We Do</span><h2>Moving Services We Provide</h2></div><div class="service-grid">${["Home Shifting","Office Relocation","Domestic Moving","Packing Service","Loading and Unloading","Storage Support","Vehicle Transportation Support"].map((item) => `<article class="service-card"><h3>${item}</h3><p>Planned support for ${item.toLowerCase()} with careful handling and clear customer communication.</p></article>`).join("")}</div></div></section>
     <section class="section"><div class="container"><div class="section-heading"><span class="eyebrow">Trust</span><h2>Why Customers Trust Us</h2></div><div class="trust-detail-grid">${["Transparent communication","Safe packing process","Trained moving support","Doorstep pickup and delivery","Call and WhatsApp support","Planned transport handling"].map((item) => `<article class="trust-detail-card"><h3>${item}</h3><p>Our team keeps the moving process practical, organized and customer-friendly.</p></article>`).join("")}</div></div></section>
-    <section class="section section-soft"><div class="container"><div class="cta-box"><h2>Our Address</h2><p>${address}</p><div class="cta__actions"><a class="btn" href="tel:+917015066265">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a></div></div></div></section>
-    <section class="city-cta"><div class="container cta-box"><div><h2>Planning to Move?</h2><p>Talk to ${brand} for packing, survey booking and moving estimate support.</p></div><div class="cta__actions"><a class="btn" href="tel:+917015066265">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a></div></div></section>`;
+    <section class="section section-soft"><div class="container"><div class="cta-box"><h2>Our Address</h2><p>${address}</p><div class="cta__actions"><a class="btn" href="tel:+918860688698">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a></div></div></div></section>
+    <section class="city-cta"><div class="container cta-box"><div><h2>Planning to Move?</h2><p>Talk to ${brand} for packing, survey booking and moving estimate support.</p></div><div class="cta__actions"><a class="btn" href="tel:+918860688698">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a></div></div></section>`;
 
 const privacyMain = `    <section class="page-hero"><div class="container page-hero__grid"><div class="page-hero-content"><span class="eyebrow">Policy</span><h1>Privacy Policy</h1><p>This page explains how ${brand} collects, uses and protects customer information.</p></div><div class="about-logo-panel"><img src="${logo}" width="520" height="520" alt="${brand} logo" loading="lazy" decoding="async"></div></div></section>
     <section class="section policy-section"><div class="container policy-content">
@@ -199,20 +199,20 @@ const privacyMain = `    <section class="page-hero"><div class="container page-h
       <h2>Data Security</h2><p>We try to keep customer information safe and use it only for service-related communication.</p>
       <h2>Cookies</h2><p>The website may use basic cookies or analytics tools to understand website performance and improve customer experience.</p>
       <h2>Customer Rights</h2><p>Customers can contact us to request correction or removal of their information from our enquiry records.</p>
-      <h2>Contact for Privacy</h2><p><strong>${brand}</strong><br>Address: ${address}<br>Phone: <a href="tel:+917015066265">${phone}</a><br>Email: <a href="mailto:${email}">${email}</a><br>Website: ${domain}</p>
+      <h2>Contact for Privacy</h2><p><strong>${brand}</strong><br>Address: ${address}<br>Phone: <a href="tel:+918860688698">${phone}</a><br>Email: <a href="mailto:${email}">${email}</a><br>Website: ${domain}</p>
       <h2>Last Updated</h2><p>2026</p>
     </div></section>`;
 
-const contactMain = `    <section class="page-hero"><div class="container page-hero__grid"><div class="page-hero-content"><span class="eyebrow">Contact Team</span><h1>Contact Easy India Packers Movers</h1><p>We are available to help you with booking, moving estimate, survey, packing guidance and delivery support.</p><div class="page-hero-actions"><a class="btn" href="tel:+917015066265">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a></div></div><div class="about-logo-panel"><img src="${logo}" width="520" height="520" alt="${brand} logo" loading="lazy" decoding="async"></div></div></section>
-    <section class="section info-section"><div class="container"><div class="section-heading"><span class="eyebrow">Contact Details</span><h2>Speak With Our Moving Support Team</h2><p class="section-lead">For faster response, keep your pickup city, destination city, moving date and goods details ready before calling.</p></div><div class="contact-card-grid"><article class="detail-card"><h3>${brand}</h3><p>${address}</p></article><article class="detail-card"><h3>Phone</h3><p><a href="tel:+917015066265">${phone}</a></p></article><article class="detail-card"><h3>WhatsApp</h3><p><a href="https://wa.me/917015066265">${phone}</a></p></article><article class="detail-card"><h3>Email</h3><p><a href="mailto:${email}">${email}</a></p></article><article class="detail-card"><h3>Website</h3><p>${domain}</p></article></div></div></section>
+const contactMain = `    <section class="page-hero"><div class="container page-hero__grid"><div class="page-hero-content"><span class="eyebrow">Contact Team</span><h1>Contact Easy India Packers Movers</h1><p>We are available to help you with booking, moving estimate, survey, packing guidance and delivery support.</p><div class="page-hero-actions"><a class="btn" href="tel:+918860688698">Call ${phone}</a><a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a></div></div><div class="about-logo-panel"><img src="${logo}" width="520" height="520" alt="${brand} logo" loading="lazy" decoding="async"></div></div></section>
+    <section class="section info-section"><div class="container"><div class="section-heading"><span class="eyebrow">Contact Details</span><h2>Speak With Our Moving Support Team</h2><p class="section-lead">For faster response, keep your pickup city, destination city, moving date and goods details ready before calling.</p></div><div class="contact-card-grid"><article class="detail-card"><h3>${brand}</h3><p>${address}</p></article><article class="detail-card"><h3>Phone</h3><p><a href="tel:+918860688698">${phone}</a></p></article><article class="detail-card"><h3>WhatsApp</h3><p><a href="https://wa.me/918860688698">${phone}</a></p></article><article class="detail-card"><h3>Email</h3><p><a href="mailto:${email}">${email}</a></p></article><article class="detail-card"><h3>Website</h3><p>${domain}</p></article></div></div></section>
     <section class="section"><div class="container"><div class="section-heading"><span class="eyebrow">Support Available For</span><h2>We Are Available For</h2></div><div class="contact-card-grid">${["Home Shifting Enquiry","Office Relocation Enquiry","Packing Service Support","Domestic Moving Quote","Vehicle Transportation Support","Storage Support","Survey Booking","Moving Date Confirmation","Pickup & Delivery Coordination","General Customer Support"].map((item) => `<article class="detail-card"><h3>${item}</h3></article>`).join("")}</div></div></section>
-    <section class="section enquiry" id="enquiry"><div class="container enquiry__grid"><div class="enquiry__media enquiry__media--info"><span class="eyebrow">Quick Support</span><h2>For quick support, call or WhatsApp ${phone}.</h2><p>Share your moving details and our team will guide you with quote, survey and booking support.</p><a class="btn" href="tel:+917015066265">Call ${phone}</a></div><form class="enquiry-form quick-form" id="enquiryForm" action="#" method="post"><span class="eyebrow">Quick Enquiry Form</span><h2>Submit Enquiry</h2><div class="form-grid"><label>Name<input type="text" name="name" placeholder="Your name" required></label><label>Mobile Number<input type="tel" name="mobile" placeholder="${phone}" required></label><label>Moving From<input type="text" name="from" placeholder="Pickup city" required></label><label>Moving To<input type="text" name="to" placeholder="Destination city" required></label><label>Moving Date<input type="date" name="date"></label><label>Service Type<select name="service"><option>Home Shifting</option><option>Office Relocation</option><option>International Moving</option><option>Vehicle Transportation</option><option>Storage Support</option></select></label></div><label>Message<textarea name="message" rows="5" placeholder="Tell us about your moving requirement"></textarea></label><button class="btn" type="submit">Submit Enquiry</button><p class="form-status" id="formStatus" aria-live="polite"></p></form></div></section>`;
+    <section class="section enquiry" id="enquiry"><div class="container enquiry__grid"><div class="enquiry__media enquiry__media--info"><span class="eyebrow">Quick Support</span><h2>For quick support, call or WhatsApp ${phone}.</h2><p>Share your moving details and our team will guide you with quote, survey and booking support.</p><a class="btn" href="tel:+918860688698">Call ${phone}</a></div><form class="enquiry-form quick-form" id="enquiryForm" action="#" method="post"><span class="eyebrow">Quick Enquiry Form</span><h2>Submit Enquiry</h2><div class="form-grid"><label>Name<input type="text" name="name" placeholder="Your name" required></label><label>Mobile Number<input type="tel" name="mobile" placeholder="${phone}" required></label><label>Moving From<input type="text" name="from" placeholder="Pickup city" required></label><label>Moving To<input type="text" name="to" placeholder="Destination city" required></label><label>Moving Date<input type="date" name="date"></label><label>Service Type<select name="service"><option>Home Shifting</option><option>Office Relocation</option><option>International Moving</option><option>Vehicle Transportation</option><option>Storage Support</option></select></label></div><label>Message<textarea name="message" rows="5" placeholder="Tell us about your moving requirement"></textarea></label><button class="btn" type="submit">Submit Enquiry</button><p class="form-status" id="formStatus" aria-live="polite"></p></form></div></section>`;
 
 fs.writeFileSync("about-us.html", htmlShell({ ...pageMeta["about-us.html"], main: aboutMain }));
 fs.writeFileSync("privacy-policy.html", htmlShell({ ...pageMeta["privacy-policy.html"], main: privacyMain }));
 fs.writeFileSync("contact.html", htmlShell({
-  title: "Contact Easy India Packers Movers | Call 7015066265",
-  description: "Contact Easy India Packers Movers for survey booking, moving estimate, home shifting, office relocation and domestic moving support. Call or WhatsApp 7015066265.",
+  title: "Contact Easy India Packers Movers | Call 8860688698",
+  description: "Contact Easy India Packers Movers for survey booking, moving estimate, home shifting, office relocation and domestic moving support. Call or WhatsApp 8860688698.",
   canonical: "https://shifteasyindia.com/contact.html",
   main: contactMain,
   ctaHref: "#enquiry"
@@ -234,6 +234,6 @@ for (const file of fs.readdirSync(".").filter((name) => name.endsWith(".html") &
   html = html.replace(/<div class="top-bar">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>/, topBar());
   html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, header());
   html = html.replace(/<footer class="footer">[\s\S]*?<\/footer>/, footer());
-  html = html.replace(/href="tel:7015066265"/g, 'href="tel:+917015066265"');
+  html = html.replace(/href="tel:8860688698"/g, 'href="tel:+918860688698"');
   fs.writeFileSync(file, html);
 }
