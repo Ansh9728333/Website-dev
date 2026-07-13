@@ -12,7 +12,7 @@ Required business details:
 
 - Company: Easy India Packers Movers
 - Website: shifteasyindia.com
-- Phone/WhatsApp: 8860688698
+- Phone/WhatsApp: 7015066265
 - Email: info@shifteasyindia.com
 
 Avoid:

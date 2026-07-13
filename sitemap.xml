@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.shifteasyindia.com/</loc>
@@ -7,13 +7,13 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/about-us</loc>
+    <loc>https://www.shifteasyindia.com/about-us.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/contact</loc>
+    <loc>https://www.shifteasyindia.com/contact.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -25,250 +25,249 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/privacy-policy</loc>
+    <loc>https://www.shifteasyindia.com/privacy-policy.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/shifting-process</loc>
+    <loc>https://www.shifteasyindia.com/shifting-process.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/domestic-moving</loc>
+    <loc>https://www.shifteasyindia.com/domestic-moving.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/international-moving</loc>
+    <loc>https://www.shifteasyindia.com/international-moving.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/service</loc>
+    <loc>https://www.shifteasyindia.com/service.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-in-delhi</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-in-gurgaon</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-in-delhi.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-in-hyderabad</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-in-gurgaon.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-in-noida</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-in-hyderabad.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-in-noida.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-in-faridabad</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-in-faridabad.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-in-ghaziabad</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-in-ghaziabad.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-bangalore</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-bangalore.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-chennai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-chennai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-hyderabad</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-hyderabad.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-kolkata</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-kolkata.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-mumbai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-mumbai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-pune</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-pune.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-bangalore</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-bangalore.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-mumbai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-mumbai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-pune</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-pune.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-bangalore</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-bangalore.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-chennai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-chennai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-mumbai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-mumbai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-pune</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-pune.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-noida-to-bangalore</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-noida-to-bangalore.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-noida-to-mumbai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-noida-to-mumbai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-mumbai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-mumbai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-bangalore</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-bangalore.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-mumbai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-mumbai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-bangalore</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-bangalore.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-ahmedabad</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-ahmedabad.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-jaipur</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-jaipur.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-chandigarh</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-delhi-to-chandigarh.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-chennai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-gurgaon-to-chennai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-noida-to-pune</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-noida-to-pune.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-pune</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-pune.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-kolkata</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-kolkata.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-chennai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-faridabad-to-chennai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-pune</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-pune.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-chennai</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-ghaziabad-to-chennai.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-jaipur</loc>
+    <loc>https://www.shifteasyindia.com/packers-and-movers-hyderabad-to-jaipur.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 </urlset>
-

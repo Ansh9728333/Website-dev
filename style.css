@@ -2492,11 +2492,12 @@ textarea:focus {
   }
 
   .floating-actions {
+    left: 12px;
     right: 12px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .float-btn {
-    min-width: 112px;
+    min-width: 0;
   }
 }

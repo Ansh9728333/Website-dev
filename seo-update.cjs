@@ -3,12 +3,12 @@ const fs = require("fs");
 const pages = {
   "index.html": [
     "Easy India Packers Movers | Packers and Movers in Delhi, Gurgaon & India",
-    "Easy India Packers Movers offers safe home shifting, office relocation, domestic moving, packing, storage and vehicle transportation in Delhi, Gurgaon, Hyderabad and across India. Call 8860688698.",
+    "Easy India Packers Movers offers safe home shifting, office relocation, domestic moving, packing, storage and vehicle transportation in Delhi, Gurgaon, Hyderabad and across India. Call 7015066265.",
     "https://shifteasyindia.com/"
   ],
   "shifting-process.html": [
     "Shifting Process | Easy India Packers Movers",
-    "Know the transparent shifting process of Easy India Packers Movers from call, survey and packing to safe delivery. Call 8860688698 for moving support.",
+    "Know the transparent shifting process of Easy India Packers Movers from call, survey and packing to safe delivery. Call 7015066265 for moving support.",
     "https://shifteasyindia.com/shifting-process.html"
   ],
   "domestic-moving.html": [
@@ -27,8 +27,8 @@ const pages = {
     "https://shifteasyindia.com/service.html"
   ],
   "contact.html": [
-    "Contact Easy India Packers Movers | Call 8860688698",
-    "Contact Easy India Packers Movers for survey booking, moving estimate, home shifting, office relocation and domestic moving support. Call or WhatsApp 8860688698.",
+    "Contact Easy India Packers Movers | Call 7015066265",
+    "Contact Easy India Packers Movers for survey booking, moving estimate, home shifting, office relocation and domestic moving support. Call or WhatsApp 7015066265.",
     "https://shifteasyindia.com/contact.html"
   ]
 };
@@ -38,7 +38,7 @@ const localBusiness = {
   "@type": "MovingCompany",
   "name": "Easy India Packers Movers",
   "url": "https://shifteasyindia.com/",
-  "telephone": "+918860688698",
+  "telephone": "+917015066265",
   "email": "info@shifteasyindia.com",
   "areaServed": ["Delhi", "Gurgaon", "Hyderabad", "Noida", "Faridabad", "Ghaziabad", "India"],
   "address": {
@@ -56,7 +56,7 @@ const organization = {
   "email": "info@shifteasyindia.com",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+918860688698",
+    "telephone": "+917015066265",
     "contactType": "customer support",
     "areaServed": "IN",
     "availableLanguage": ["English", "Hindi"]

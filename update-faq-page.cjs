@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const brand = "Easy India Packers Movers";
 const domain = "shifteasyindia.com";
-const phone = "8860688698";
+const phone = "7015066265";
 const email = "info@shifteasyindia.com";
 const address = "Plot No 81 First Floor, Housing Board Colony, Sector 7, Gurgaon, Haryana 122001";
 const logo = "assets/logo-easy-india-packers-movers.png";
@@ -82,8 +82,8 @@ function topBar() {
     <div class="container top-bar__inner">
       <p>Trusted Packers &amp; Movers Across India</p>
       <div class="top-bar__links">
-        <a href="tel:+918860688698">Phone: ${phone}</a>
-        <a href="https://wa.me/918860688698">WhatsApp: ${phone}</a>
+        <a href="tel:+917015066265">Phone: ${phone}</a>
+        <a href="https://wa.me/917015066265">WhatsApp: ${phone}</a>
         <a href="mailto:${email}">Email: ${email}</a>
         <a href="https://${domain}/">Website: ${domain}</a>
       </div>
@@ -150,8 +150,8 @@ function footer() {
       <div>
         <h3>Contact</h3>
         <p>${brand}</p>
-        <p>Phone: <a href="tel:+918860688698">${phone}</a></p>
-        <p>WhatsApp: <a href="https://wa.me/918860688698">${phone}</a></p>
+        <p>Phone: <a href="tel:+917015066265">${phone}</a></p>
+        <p>WhatsApp: <a href="https://wa.me/917015066265">${phone}</a></p>
         <p>Email: <a href="mailto:${email}">${email}</a></p>
         <p>Website: ${domain}</p>
       </div>
@@ -167,7 +167,7 @@ function localBusinessSchema() {
     "name": brand,
     "url": `https://${domain}/`,
     "logo": `https://${domain}/${logo}`,
-    "telephone": "+918860688698",
+    "telephone": "+917015066265",
     "email": email,
     "address": {
       "@type": "PostalAddress",
@@ -190,7 +190,7 @@ function organizationSchema() {
     "email": email,
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+918860688698",
+      "telephone": "+917015066265",
       "contactType": "customer support",
       "areaServed": "IN",
       "availableLanguage": ["English", "Hindi"]
@@ -246,8 +246,8 @@ ${header()}
           <h1>Frequently Asked Questions</h1>
           <p>Find answers about booking, shifting charges, packing safety, insurance, delivery, vehicle transport, office relocation and storage support.</p>
           <div class="page-hero-actions">
-            <a class="btn" href="tel:+918860688698">Call ${phone}</a>
-            <a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a>
+            <a class="btn" href="tel:+917015066265">Call ${phone}</a>
+            <a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a>
           </div>
         </div>
         <div class="about-logo-panel"><img src="${logo}" width="520" height="520" alt="${brand} logo" loading="lazy" decoding="async"></div>
@@ -293,14 +293,14 @@ ${header()}
           <p>Call or WhatsApp ${brand} and share your shifting details. Our team will guide you with booking, estimate and moving support.</p>
         </div>
         <div class="cta__actions">
-          <a class="btn" href="tel:+918860688698">Call ${phone}</a>
-          <a class="btn btn--white" href="https://wa.me/918860688698">WhatsApp Now</a>
+          <a class="btn" href="tel:+917015066265">Call ${phone}</a>
+          <a class="btn btn--white" href="https://wa.me/917015066265">WhatsApp Now</a>
         </div>
       </div>
     </section>
   </main>
 ${footer()}
-  <div class="floating-actions" aria-label="Quick contact"><a class="float-btn float-btn--call" href="tel:+918860688698">Call</a><a class="float-btn float-btn--whatsapp" href="https://wa.me/918860688698">WhatsApp</a></div>
+  <div class="floating-actions" aria-label="Quick contact"><a class="float-btn float-btn--call" href="tel:+917015066265">Call</a><a class="float-btn float-btn--whatsapp" href="https://wa.me/917015066265">WhatsApp</a></div>
 </body>
 </html>
 `;
