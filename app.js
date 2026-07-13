@@ -1,4 +1,4 @@
-const enquiryForms = document.querySelectorAll(".enquiry-form, .quick-form");
+﻿const enquiryForms = document.querySelectorAll(".enquiry-form, .quick-form");
 
 function formValue(formData, names) {
   for (const name of names) {
@@ -88,7 +88,7 @@ enquiryForms.forEach((form) => {
       form.reset();
       setFormStatus(form, "Thank you! Your enquiry has been submitted. Our team will connect shortly.", "success");
     } catch (error) {
-      setFormStatus(form, "Something went wrong. Please call or WhatsApp 7015066265.", "error");
+      setFormStatus(form, "Something went wrong. Please call or WhatsApp 8860688698.", "error");
     } finally {
       form.dataset.submitting = "false";
       if (submitButton) {
@@ -98,3 +98,4 @@ enquiryForms.forEach((form) => {
     }
   });
 });
+
